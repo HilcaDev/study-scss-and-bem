@@ -1,0 +1,14 @@
+
+h1,h2{
+    @extend %color;
+    text-align: center;
+    
+}
+a{  color:blue;
+    &:hover{
+        @extend %color;
+    }
+    &:active{
+        color:red;
+    }
+}

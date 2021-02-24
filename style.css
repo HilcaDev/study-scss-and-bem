@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+.website__flex img, .website__flex--border {
+  border: 3px inset pink;
+}
+
+h1, h2, a:hover, .website__flex button {
+  background-color: #4a3a57;
+  color: white;
+  padding: 5px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+a {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+
+body {
+  margin: 0;
+}
+
+.website {
+  font-family: "akaya kanadaka";
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #4a3a57;
+}
+
+.website__title {
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  min-width: 100vw;
+}
+
+.website__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.website__flex li {
+  list-style-type: none;
+}
+
+.website__flex img {
+  padding: 5px;
+}
+
+.website__flex button {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.website__flex p {
+  margin: 0px;
+}
+
+.website__body {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.website__flex--margin {
+  margin-top: 80px;
+}
+
+.website__body__art1__title3 {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import "variable";
+@import "globals";
+
+body{
+    margin:0;
+}
+.website{
+
+    font:{
+        family:"akaya kanadaka";
+        size:$f-size;
+    }
+    text-align: justify;
+    color: $main-color;
+    
+    &__title{
+    margin: 0px;
+    @include position(fixed,0px);
+    min-width: 100vw;
+    }
+    
+    &__flex{
+        li{
+            list-style-type: none;
+        }
+        img{
+            @extend %border;
+            padding: 5px;
+        }
+        button{
+            border-radius: 5px;
+            cursor: pointer;
+            @extend %color;
+        }
+        p{
+            margin:0px;
+        }
+        @include flexbox(flex,space-around);
+    }
+    &__body{
+      max-width: 60rem;
+      margin:0 auto;
+    }
+    &__flex--margin{
+        margin-top: 80px;
+    }
+    &__flex--border{
+        @extend %border;
+    }
+    &__body__art1__title3{
+        text-decoration: underline;
+    }
+}

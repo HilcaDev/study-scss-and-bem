@@ -1,23 +1,24 @@
-$alternative-family:"serif";
-$f-size:1.2rem;
-$main-color:rgb(74, 58, 87);
-$alternative-color:white;
+$alternative-family: "serif";
+$f-size: 1.2rem;
+$main-color: rgb(74, 58, 87);
+$alternative-color: white;
 
-%border{
+%border {
     border: 3px inset pink;
 }
-%color{
+
+%color {
     background-color: $main-color;
     color: $alternative-color;
     padding: 5px;
 }
-@mixin flexbox ($display,$justify) {
+
+@mixin flexbox($display, $justify) {
     display: $display;
     justify-content: $justify;
 }
-@mixin position($type,$top){
+
+@mixin position($type, $top) {
     position: $type;
-    top:$top;
+    top: $top;
 }
-
-
